@@ -1,3 +1,4 @@
 #!/bin/bash
 cd $PWD
-git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -d
+git checkout $1
+git branch -vv | awk '/: gone]/{print $2}' | xargs git branch -d
