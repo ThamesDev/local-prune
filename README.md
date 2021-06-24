@@ -1,4 +1,4 @@
-# prune-local
+# local-prune
 ## About
 This is a script created to prune any local branches which are tracking deleted remote branches. It annoyed me that I had to do this manually, so I made this.
 ## Installation
