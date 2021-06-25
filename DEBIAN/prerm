@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
-echo 'Removing program : local-prune.sh .....'
+echo 'prerm: removing local-prune from /usr/bin/ ...'
 cd /usr/bin/
 sudo rm -f local-prune

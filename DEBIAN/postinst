@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
-echo 'Installing program : local-prune.sh .....'
+echo 'compiling local-prune.sh to local-prune ...'
+echo 'removing scaffolding files ...'
 cd /usr/bin/
 sudo shc -f local-prune.sh || exit
 sudo mv local-prune.sh.x local-prune
