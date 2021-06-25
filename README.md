@@ -13,7 +13,7 @@ sudo apt install dpkg
 
 3. Run
 ```
-dpkg -i local-prune_1.0-1_all
+sudo dpkg -i local-prune_1.0-1_all
 ```
 replacing `local-prune_1.0-1_all` with the name of the file you have downloaded.
 
@@ -34,4 +34,10 @@ Check out the source code, but TL;DR:
 - git fetches
 - git pulls
 - removes any remote tracking branches for which the remote branch has been deleted.
+
 It really is a very simple script!
+##Uninstallation
+The program can be easily uninstalled with
+```
+sudo apt remove local-prune
+```
