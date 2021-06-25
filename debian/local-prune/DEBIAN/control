@@ -1,0 +1,10 @@
+Package: local-prune
+Version: 1.0.0
+Architecture: amd64
+Maintainer: ThamesDev <https://github.com/ThamesDev/>
+Installed-Size: 25
+Depends: libc6 (>= 2.33), git, bash, shc
+Section: utils
+Priority: optional
+Description: dead local git branch pruner
+ This package prunes local remote tracking git branches whose remote branches have been deleted.
