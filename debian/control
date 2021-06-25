@@ -1,5 +1,5 @@
 Source: local-prune
-Maintainer: ThamesDev <https://github.com/ThamesDev/>
+Maintainer: ThamesDev <freddie@jemison.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 1.0.0
 Section: utils
