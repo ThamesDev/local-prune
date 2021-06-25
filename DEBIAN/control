@@ -5,4 +5,4 @@ Architecture: all
 Maintainer: ThamesDev <https://github.com/ThamesDev/>
 Depends: git, bash
 Description: automatically prunes local git branches
-This package prunes remote tracking local git branches whose remote branches have been deleted.
+ This package prunes remote tracking local git branches whose remote branches have been deleted.
