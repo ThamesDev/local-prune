@@ -1,7 +1,0 @@
-Usage: local-prune [main-branch]
-
-[main-branch] = the name of your primary branch, such as "main".
-
-Conditions: local-prune should only be executed within a git repository. local-prune should only be run for repos where the remote branch which a local branch is tracking has just been deleted.
-
-Function: when executed, local prune will switch to the specified branch, git fetch with the --prune option, git pull, and delete any local branches for which the corresponding remote branches are gone.
