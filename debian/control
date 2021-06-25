@@ -1,8 +1,12 @@
-Package: local-prune
-Version: 1.0-1
-Priority: optional
-Architecture: all
+Source: local-prune
 Maintainer: ThamesDev <https://github.com/ThamesDev/>
-Depends: git, bash, shc
-Description: automatically prunes local git branches
- This package prunes remote tracking local git branches whose remote branches have been deleted.
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 1.0.0
+Section: utils
+
+Package: local-prune
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, git, bash, shc
+Description: dead local git branch pruner
+ This package prunes local remote tracking git branches whose remote branches have been deleted.
