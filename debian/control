@@ -1,7 +1,7 @@
 Source: local-prune
 Maintainer: ThamesDev <freddie@jemison.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 1.0-0
+Standards-Version: 0.0.1
 Section: utils
 
 Package: local-prune
