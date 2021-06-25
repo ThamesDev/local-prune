@@ -1,4 +1,4 @@
-local-prune (1.0.0) unstable; urgency=low
+local-prune (1.0.0) hirsute; urgency=low
 
   * Initial release.
 
