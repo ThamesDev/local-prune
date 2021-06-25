@@ -8,12 +8,15 @@ sudo apt install git
 sudo apt install shc
 sudo apt install dpkg
 ```
+
 2. Download the `.deb` file from this repository to your computer. You may download it to any directory you wish.
+
 3. Run
 ```
 dpkg -i local-prune_1.0-1_all
 ```
 replacing `local-prune_1.0-1_all` with the name of the file you have downloaded.
+
 4. Test it in a repo!
 ## Usage
 Once you have pushed your changes to the remote branch, merged into `main` (or whatever your primary branch is called) and deleted the other branch, run
