@@ -1,8 +1,5 @@
 local-prune:
-	@echo 'Compiling ...'
-	@shc -f local-prune.sh
-	@mv local-prune.sh.x local-prune
-	@rm local-prune.sh.x.c
+	@gcc local-prune.c -o local-prune
+
 install: local-prune
-	@echo 'Installing ...'
 	@install -m 0755 local-prune /usr/bin
