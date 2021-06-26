@@ -7,6 +7,6 @@ Section: utils
 Package: local-prune
 Priority: optional
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, git, bash, shc
+Depends: ${shlibs:Depends}, ${misc:Depends}, git
 Description: dead local git branch pruner
  This package prunes local remote tracking git branches whose remote branches have been deleted.
