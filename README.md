@@ -2,7 +2,7 @@
 ## About
 This is a script created to prune any local branches which are tracking deleted remote branches. It annoyed me that I had to do this manually, so I made this. THis script will only run in bash, but n the interests of preserving its development, the `.sh` source code is available here from before it was converted to c, and it should be fairly trivial for a user to modify it for whatever shell they use.
 ## Installation
-**WARNING: designed for Debian-based systems. If you use a non-debian based distro, such as Arch-based, use the appropriate package manager.**
+**WARNING: designed for Debian-based systems. If you use a non-Debian based distro, such as Arch-based, use the appropriate package manager.**
 ### Prerequisites
 Ensure that you have the necessary dependencies installed. This can be done with the following commands:
 ```
