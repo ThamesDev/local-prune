@@ -1,6 +1,6 @@
 # local-prune
 ## About
-This is a script created to prune any local branches which are tracking deleted remote branches. It annoyed me that I had to do this manually, so I made this. THis script will only run in bash, but the source code is available here, and it should be fairly trivial for a user to modify it for whatever shel they use.
+This is a script created to prune any local branches which are tracking deleted remote branches. It annoyed me that I had to do this manually, so I made this. THis script will only run in bash, but n the interests of preserving its development, the `.sh` source code is available here from before it was converted to c, and it should be fairly trivial for a user to modify it for whatever shell they use.
 ## Installation
 **WARNING: designed for Debian-based systems. If you use a non-debian based distro, such as Arch-based, use the appropriate package manager.**
 ### Prerequisites
@@ -21,26 +21,32 @@ sudo apt install local-prune
 ### If you do not wish to add the PPA, and are on an x86\_64/amd64 Debian-based system
 1. Download the `.deb` release from this repository to your computer. You may download it to any directory you wish.
 
-2. Run
+2. Replacing [version] with the version of the file you downloaded, run
 ```
-sudo dpkg -i local-prune_1.0.1_amd64.deb
+sudo dpkg -i local-prune_[version]_amd64.deb
 ```
-replacing `local-prune_1.0.1_amd64.deb` with the name of the file you have downloaded.
+replacing `local-prune_[version]_amd64.deb` with the name of the file you have downloaded.
 
 3. Test it in a repo!
 ### For non Debian-based systems, other architectures, or both
 **WARNING: this package was designed to work on Debian-based systems with an x86_64/amd64 architecture. Install at your own risk.**
-1. Download the the latest `local-prune_[version]_source.tar.gz` release from this repository
-
-2. Run the following commands, while in the directory containing the `.tar.gz` file, replacing [version] with the version of the file you downloaded. Do not copy-paste the commands directly into the shell without changing this.
+1. Clone this repository into your working directory using the command
 ```
-tar -xvzf local-prune_[version]_source.tar.gz
-cd local-prune_[version]_source
+git clone https://github.com/ThamesDev/local-prune.git
+```
+
+2. Run
+```
+cd local-prune
 make
 sudo make install
 ```
 
-3. You may now delete the `.tar.gz` file and remove the directory if you wish.
+3. If you wish, you may now delete the folder using
+```
+sudo rm -rf local-prune/
+```
+from its parent directory, but this is not necessary.
 
 4. Test it in a repo!
 ## Usage
@@ -62,7 +68,7 @@ Check out the source code, but TL;DR:
 
 It really is a very simple script!
 ## Uninstallation
-The program can be easily uninstalled with
+However it was installed, the program can be easily uninstalled with
 ```
 sudo apt remove local-prune
 ```
