@@ -1,3 +1,9 @@
+local-prune (1.0.0ubuntu1) hirsute; urgency=low
+
+  * Adapt program from sh script to c script, change compiler as necessary.
+
+ -- Freddie Jemison <freddie@jemison.co.uk>  Sat, 26 Jun 2021 11:10:31 +0100
+
 local-prune (1.0.0) hirsute; urgency=low
 
   * Initial release.
