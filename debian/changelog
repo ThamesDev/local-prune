@@ -1,3 +1,9 @@
+local-prune (1.1.0ubuntu1) hirsute; urgency=low
+
+  * Completely rewrite C program to remove dependency issues, archive shell script.
+
+ -- Freddie Jemison <freddie@jemison.co.uk>  Sat, 03 Jul 2021 08:56:41 +0100
+
 local-prune (1.0.0ubuntu1) hirsute; urgency=low
 
   * Adapt program from sh script to c script, change compiler as necessary.
