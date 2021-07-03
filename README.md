@@ -68,7 +68,11 @@ Check out the source code, but TL;DR:
 
 It really is a very simple script!
 ## Uninstallation
-However it was installed, the program can be easily uninstalled with
+Unless installed via the `makefile`, the program can be easily uninstalled with
 ```
 sudo apt remove local-prune
+```
+If you did install via the `Makefile`, the program can be uninstallted with
+```
+sudo rm -rf /usr/bin/local-prune
 ```
